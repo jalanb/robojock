@@ -122,5 +122,5 @@ doctest_optionflags = ["ELLIPSIS", "NORMALIZE_WHITESPACE"]
 # Tox configuration is in tox.ini
 
 [project.scripts]
-robojock = "robojock.__main__:main"
+robojock = "robojock.__main__:robojock"
 

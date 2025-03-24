@@ -1,6 +1,8 @@
 # robojock
 
-This project should provide access to locally running iTunes
+This project should provide access via Python to a locally running iTunes
+
+It should afford the same services in Python as can be used via AppleScript, and so make these available at CLI, over REST api, and via MCP server.
 
 ## The dream
 
