@@ -40,13 +40,13 @@ Since then I have spent many decades rating songs, and now have hundreds of Gb o
  - 4: Great
  - 5: All time great
 
-Another doc will have exact definitions of these, for here it is enough to know: a 5-star scale, but it allows half-stars. And at `3.5` is the only "division": any track getting >= 3.5 gets copied on to my phone, and on to a USB stick for the car, ... 
+Another doc will have exact definitions of these, for here it is enough to know: a 5-star scale, but it allows half-stars. And at `3.5` is the only "division": any track getting >= 3.5 gets copied on to my phone, and on to a USB stick for the car, ...
 
 ### Colours
 
 I have arbitrarily added "colours" to a lot of tracks in the collection.
 
-I have used the "Genre" tag in the track's mp3 file to record my "colour" (because existing genres are arbitrary and I had not found them helpful) 
+I have used the "Genre" tag in the track's mp3 file to record my "colour" (because existing genres are arbitrary and I had not found them helpful)
 
 Roughly speaking the main colours are
  - Red: Rock and Classical
@@ -93,3 +93,12 @@ Read ~/CLAUDE.md to see which machine this is
 I'm a developer, working on another machine in the local network where `mini.local` is running, and providing the music we can hear over speakers, or headphones.
 
 So, in "devspeak": this is a "dev machine" and `mini.local` is our "production machine", and we are "dogfooding", insofar as if coding errors lead to no music being played, then I get pissed off. And if "bad" music is being played then I get very pissed of.
+
+### Development Environment
+
+The development environment is explained in README.md
+
+### Claude Environment
+
+At startup you should always read `docs/context.md` for recent context.
+And read `docs/TODO.md` for current tasks
