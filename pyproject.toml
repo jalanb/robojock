@@ -119,34 +119,7 @@ testpaths = ["test"]
 addopts = "--doctest-modules --doctest-glob=*.test --doctest-glob=*.md"
 doctest_optionflags = ["ELLIPSIS", "NORMALIZE_WHITESPACE"]
 
-[tool.tox]
-envlist = ["lints", "tests"]
-[tool.tox.env.lints]
-deps = [".[lint]"]
-commands = [
-    ["black", "-S", "--check", "robojock"],
-    ["blackdoc", "-S", "--check", "robojock"],
-    ["flake8", "robojock"],
-    ["mypy", "robojock"],
-]
-
-[tool.tox.env.tests]
-deps = [".[test]"]
-commands = [
-    ["py.test", "--cov=robojock", "robojock", "tests" ]
-]
-
-[tool.tox.env.devs]
-deps = [".[develop]"]
-commands = [
-    ["py.test", "--exitfirst", "robojock", "tests" ]
-]
-
-[tool.tox.env.pudb]
-deps = [".[develop]"]
-commands = [
-    ["py.test", "--pudb", "robojock", "tests" ]
-]
+# Tox configuration is in tox.ini
 
 [project.scripts]
 robojock = "robojock.__main__:main"
